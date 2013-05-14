@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="titanium_ui_list_header_or_footer_title">false</item>
+    <item type="id" name="titanium_ui_list_item_content">false</item>
+    <item type="id" name="titanium_ui_list_item_accessoryType">false</item>
+</resources>

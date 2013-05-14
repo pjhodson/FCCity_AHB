@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="appicon" id="0x7f020000" />
+    <public type="drawable" name="background" id="0x7f020001" />
+    <public type="drawable" name="btn_check_buttonless_on_64" id="0x7f020002" />
+    <public type="drawable" name="btn_more_64" id="0x7f020003" />
+    <public type="drawable" name="disclosure_64" id="0x7f020004" />
+    <public type="layout" name="titanium_tabgroup" id="0x7f030000" />
+    <public type="layout" name="titanium_ui_list_header_or_footer" id="0x7f030001" />
+    <public type="layout" name="titanium_ui_list_item" id="0x7f030002" />
+    <public type="string" name="app_name" id="0x7f040000" />
+    <public type="style" name="Theme.Titanium" id="0x7f050000" />
+    <public type="id" name="titanium_ui_list_header_or_footer_title" id="0x7f060000" />
+    <public type="id" name="titanium_ui_list_item_content" id="0x7f060001" />
+    <public type="id" name="titanium_ui_list_item_accessoryType" id="0x7f060002" />
+</resources>

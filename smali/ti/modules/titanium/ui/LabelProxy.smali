@@ -1,0 +1,73 @@
+.class public Lti/modules/titanium/ui/LabelProxy;
+.super Lorg/appcelerator/titanium/proxy/TiViewProxy;
+.source "LabelProxy.java"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 3
+
+    .prologue
+    .line 35
+    invoke-direct {p0}, Lorg/appcelerator/titanium/proxy/TiViewProxy;-><init>()V
+
+    .line 36
+    iget-object v0, p0, Lti/modules/titanium/ui/LabelProxy;->defaultValues:Lorg/appcelerator/kroll/KrollDict;
+
+    const-string v1, "text"
+
+    const-string v2, ""
+
+    invoke-virtual {v0, v1, v2}, Lorg/appcelerator/kroll/KrollDict;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 37
+    return-void
+.end method
+
+.method public constructor <init>(Lorg/appcelerator/titanium/TiContext;)V
+    .locals 0
+    .parameter "tiContext"
+
+    .prologue
+    .line 41
+    invoke-direct {p0}, Lti/modules/titanium/ui/LabelProxy;-><init>()V
+
+    .line 42
+    return-void
+.end method
+
+
+# virtual methods
+.method public createView(Landroid/app/Activity;)Lorg/appcelerator/titanium/view/TiUIView;
+    .locals 1
+    .parameter "activity"
+
+    .prologue
+    .line 55
+    new-instance v0, Lti/modules/titanium/ui/widget/TiUILabel;
+
+    invoke-direct {v0, p0}, Lti/modules/titanium/ui/widget/TiUILabel;-><init>(Lorg/appcelerator/titanium/proxy/TiViewProxy;)V
+
+    return-object v0
+.end method
+
+.method protected getLangConversionTable()Lorg/appcelerator/kroll/KrollDict;
+    .locals 3
+
+    .prologue
+    .line 47
+    new-instance v0, Lorg/appcelerator/kroll/KrollDict;
+
+    invoke-direct {v0}, Lorg/appcelerator/kroll/KrollDict;-><init>()V
+
+    .line 48
+    .local v0, table:Lorg/appcelerator/kroll/KrollDict;
+    const-string v1, "text"
+
+    const-string v2, "textid"
+
+    invoke-virtual {v0, v1, v2}, Lorg/appcelerator/kroll/KrollDict;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 49
+    return-object v0
+.end method
